@@ -139,7 +139,6 @@
 		DE258B612D8D5738000AD866 /* HistoryViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE258A772D8D5738000AD866 /* HistoryViewModel.swift */; };
 		DE258B622D8D5738000AD866 /* UIEdgeInsets+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE258A202D8D5738000AD866 /* UIEdgeInsets+Extension.swift */; };
 		DE258B632D8D5738000AD866 /* ARTQuestionImageCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE258A522D8D5738000AD866 /* ARTQuestionImageCell.swift */; };
-		DE258B642D8D5738000AD866 /* WebController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE258A182D8D5738000AD866 /* WebController.swift */; };
 		DE258B652D8D5738000AD866 /* UIApplication+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE258A1D2D8D5738000AD866 /* UIApplication+Extension.swift */; };
 		DE258B662D8D5738000AD866 /* Appearance.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE258A3C2D8D5738000AD866 /* Appearance.swift */; };
 		DE258B672D8D5738000AD866 /* TryAgainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE258AB72D8D5738000AD866 /* TryAgainView.swift */; };
@@ -175,7 +174,6 @@
 		DE258A152D8D5738000AD866 /* PaddingLabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaddingLabel.swift; sourceTree = "<group>"; };
 		DE258A162D8D5738000AD866 /* PaddingTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaddingTextField.swift; sourceTree = "<group>"; };
 		DE258A172D8D5738000AD866 /* TapAreaButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TapAreaButton.swift; sourceTree = "<group>"; };
-		DE258A182D8D5738000AD866 /* WebController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebController.swift; sourceTree = "<group>"; };
 		DE258A1A2D8D5738000AD866 /* Collection+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Collection+Extension.swift"; sourceTree = "<group>"; };
 		DE258A1B2D8D5738000AD866 /* ObservableAndSingle+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ObservableAndSingle+Extension.swift"; sourceTree = "<group>"; };
 		DE258A1C2D8D5738000AD866 /* String+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+Extension.swift"; sourceTree = "<group>"; };
@@ -399,7 +397,6 @@
 				DE258A152D8D5738000AD866 /* PaddingLabel.swift */,
 				DE258A162D8D5738000AD866 /* PaddingTextField.swift */,
 				DE258A172D8D5738000AD866 /* TapAreaButton.swift */,
-				DE258A182D8D5738000AD866 /* WebController.swift */,
 			);
 			path = CustomViews;
 			sourceTree = "<group>";
@@ -571,9 +568,9 @@
 			isa = PBXGroup;
 			children = (
 				DE258A582D8D5738000AD866 /* Views */,
-				DE258A592D8D5738000AD866 /* AssistantResultView.swift */,
 				DE258A5A2D8D5738000AD866 /* AssistantResultViewController.swift */,
 				DE258A5B2D8D5738000AD866 /* AssistantResultViewModel.swift */,
+				DE258A592D8D5738000AD866 /* AssistantResultView.swift */,
 			);
 			path = AssistantResult;
 			sourceTree = "<group>";
@@ -629,9 +626,9 @@
 			isa = PBXGroup;
 			children = (
 				DE258A682D8D5738000AD866 /* Views */,
-				DE258A692D8D5738000AD866 /* AccountView.swift */,
 				DE258A6A2D8D5738000AD866 /* AccountViewController.swift */,
 				DE258A6B2D8D5738000AD866 /* AccountViewModel.swift */,
+				DE258A692D8D5738000AD866 /* AccountView.swift */,
 			);
 			path = Account;
 			sourceTree = "<group>";
@@ -668,9 +665,9 @@
 			isa = PBXGroup;
 			children = (
 				DE258A742D8D5738000AD866 /* Views */,
-				DE258A752D8D5738000AD866 /* HistoryView.swift */,
 				DE258A762D8D5738000AD866 /* HistoryViewController.swift */,
 				DE258A772D8D5738000AD866 /* HistoryViewModel.swift */,
+				DE258A752D8D5738000AD866 /* HistoryView.swift */,
 			);
 			path = History;
 			sourceTree = "<group>";
@@ -814,8 +811,8 @@
 			isa = PBXGroup;
 			children = (
 				DE258A9E2D8D5738000AD866 /* Views */,
-				DE258A9F2D8D5738000AD866 /* OnboardingView.swift */,
 				DE258AA02D8D5738000AD866 /* OnboardingViewController.swift */,
+				DE258A9F2D8D5738000AD866 /* OnboardingView.swift */,
 			);
 			path = Onboarding;
 			sourceTree = "<group>";
@@ -847,9 +844,9 @@
 			children = (
 				DE258AA42D8D5738000AD866 /* Utils */,
 				DE258AAB2D8D5738000AD866 /* Views */,
-				DE258AAC2D8D5738000AD866 /* PaygateView.swift */,
 				DE258AAD2D8D5738000AD866 /* PaygateViewController.swift */,
 				DE258AAE2D8D5738000AD866 /* PaygateViewModel.swift */,
+				DE258AAC2D8D5738000AD866 /* PaygateView.swift */,
 			);
 			path = Paygate;
 			sourceTree = "<group>";
@@ -866,9 +863,9 @@
 			isa = PBXGroup;
 			children = (
 				DE258AB12D8D5738000AD866 /* Utils */,
-				DE258AB22D8D5738000AD866 /* SplashView.swift */,
 				DE258AB32D8D5738000AD866 /* SplashViewController.swift */,
 				DE258AB42D8D5738000AD866 /* SplashViewModel.swift */,
+				DE258AB22D8D5738000AD866 /* SplashView.swift */,
 			);
 			path = Splash;
 			sourceTree = "<group>";
@@ -886,8 +883,8 @@
 		DE258AB92D8D5738000AD866 /* TryAgain */ = {
 			isa = PBXGroup;
 			children = (
-				DE258AB72D8D5738000AD866 /* TryAgainView.swift */,
 				DE258AB82D8D5738000AD866 /* TryAgainViewController.swift */,
+				DE258AB72D8D5738000AD866 /* TryAgainView.swift */,
 			);
 			path = TryAgain;
 			sourceTree = "<group>";
@@ -1343,7 +1340,6 @@
 				DE258B612D8D5738000AD866 /* HistoryViewModel.swift in Sources */,
 				DE258B622D8D5738000AD866 /* UIEdgeInsets+Extension.swift in Sources */,
 				DE258B632D8D5738000AD866 /* ARTQuestionImageCell.swift in Sources */,
-				DE258B642D8D5738000AD866 /* WebController.swift in Sources */,
 				DE258B652D8D5738000AD866 /* UIApplication+Extension.swift in Sources */,
 				DE258B662D8D5738000AD866 /* Appearance.swift in Sources */,
 				DE258B672D8D5738000AD866 /* TryAgainView.swift in Sources */,
@@ -1379,6 +1375,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Manual;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = "";
@@ -1416,6 +1413,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Manual;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = "";
